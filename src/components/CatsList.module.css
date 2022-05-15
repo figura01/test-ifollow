@@ -1,0 +1,8 @@
+.list_cats {
+  display:flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  height: 75vh;
+  overflow-y: scroll;
+}

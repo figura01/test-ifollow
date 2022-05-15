@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.pagination_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page_item {
+  margin: 0 0.5rem;
+}
+
+.page_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  background: white;
+  text-decoration: none;
+}
+
+.page_link.active{
+  background-color: deepskyblue;
+  color:white;
+  border: none;
+}

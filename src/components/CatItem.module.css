@@ -1,0 +1,51 @@
+.breed {
+  color: #333;
+  margin: 0 0 1rem 0;
+  padding: 0 rem;
+}
+
+.entrie {
+  color: #333;
+  margin: .5rem 0;
+}
+
+.entrie span{
+  color: #111;
+  font-weight: 600;
+}
+
+
+.cat_item {
+  width: 100%;
+}
+
+.content:hover {
+  cursor: pointer;
+}
+
+
+@media (min-width: 576px) {
+  .cat_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cat_item {
+    width: 50%;
+
+  }
+}
+
+
+@media (min-width: 992px) {
+  .cat_item {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cat_item {
+    width: 25%;
+  }
+}

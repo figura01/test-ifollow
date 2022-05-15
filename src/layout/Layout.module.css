@@ -1,0 +1,30 @@
+.main {
+  margin: 10vh auto 0;
+  height: 85vh;
+}
+
+@media (min-width: 576px) {
+  .main {
+    width: 540px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .main {
+    width: 720px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .main {
+    width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    width: 1140px;
+  }
+}
